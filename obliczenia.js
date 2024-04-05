@@ -8,9 +8,9 @@ function oblicz(){
     let ostatok_dolga = suma_kredyta;
     for (let i = 1; i <= miesiecy; i++)
     {
-        procentnaja_czast = ostatok_dolga *0.007
-        osnowna_zcast = jezemes_plat - procentnaja_czast
-        ostatok_dolga = ostatok_dolga - osnowna_zcast - nadplata
+        procentnaja_czast = ostatok_dolga *0.007;
+        osnowna_zcast = jezemes_plat - procentnaja_czast;
+        ostatok_dolga = ostatok_dolga - osnowna_zcast - nadplata;
         document.getElementById("wypis").innerHTML= i + " " + procentnaja_czast + " " + osnowna_zcast + " " + ostatok_dolga;
     
 }
