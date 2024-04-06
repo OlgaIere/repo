@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kalkulator hipoteki</title>
-        <link rel="stylesheet" href="./style.css">
-
-    </head>
-    <body>
-        <header>
-            <div class="baner">
-                <img src="./dom" alt="domek">
-            </div>
-            <div class="menu">
-                <a href="#">O nas</a>
-                <a href="#">Kontakt</a>
-            </div>
-        </header>
-        <main>
-            <form>
-                <div>
-                    <h3>Oblicz swój kredyt</h3>
-                    <table>
-                        <tr>
-                            <td>Ile kosztuje twoje mieszkanie?</td>
-                            <td><input type="number" id="suma_kredyta"></td>
-                        </tr>
-                        <tr>
-                            <td>Na ile miesiecy chcesz pożyczkę?</td>
-                            <td><input type="number" id="miesiecy"></td>
-                        </tr>
-                        <tr>
-                            <td>Ile chcesz nadplacać co miesiąc?</td>
-                            <td><input type="number" id="nadplata"></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><input id="reset" type="reset" value="Resetuj">
-                                <input type="button" id="wyslij"
-                                    value="Prześlij" onclick="oblicz()"></td>
-                        </tr>
-
-                    </table>
-                </form>
-                <p>Harmonogram wypłat</p>
-                <p id="wypis"></p>
-            </div>
-
-        </main>
-        <footer>
-            <p><b>Zaprazsamy do kontaktu</b></p>
-        </footer>
-        <script src="./obliczenia.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator hipoteki</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+<header>
+    <div class="baner">
+        <img src="./dom" alt="banner">
+    </div>
+    <div class="menu">
+        <a href="#">O nas</a>
+        <a href="#">Kontakt</a>
+    </div>
+</header> 
+<main>
+   <form> 
+    <div>
+        <h3>Oblicz swój kredyt</h3>
+        <table>
+            <tr>
+                <td>Ile kosztuje twoje mieszkanie?</td>
+                <td><input type="number" id="suma_kredyta"></td>
+           </tr>
+            <tr>
+                <td>Na ile miesiecy chcesz pożyczkę?</td>
+                <td><input type="number" id="miesiecy"></td>
+          </tr>
+           <!-- <tr>
+                <td>Ile chcesz nadplacać co miesiąc?</td>
+                <td><input type="number" id="nadplata"></td>
+           </tr> -->
+           <tr>
+                <td></td>
+                <td><input id="reset" type="reset" value="Resetuj">
+                <input type="button" id="wyslij" value="Prześlij" onclick="oblicz()"></td>
+           </tr>
+       
+        </table>
+    </form>
+        <p>Harmonogram wypłat</p>
+        <p id="wypis"></p>
+    </div>
+    
+</main> 
+<footer>
+<p><b>00000000000</b></p>
+</footer>  
+<script src="./obliczenia.js"></script>
+</body>
 </html>
+
